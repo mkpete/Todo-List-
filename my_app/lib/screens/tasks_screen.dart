@@ -151,7 +151,7 @@ class _TasksScreenState extends State<TasksScreen> {
             ),
           ],
         ),
-        backgroundColor: const Color(0xFF883007),
+        backgroundColor: const Color.fromARGB(255, 136, 91, 7),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       drawer: Drawer(
@@ -160,7 +160,7 @@ class _TasksScreenState extends State<TasksScreen> {
           children: [
             const UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage("assets/profile.jpeg"),
+                backgroundImage: AssetImage("assets/app_icon.png"),
               ),
               accountName: Text("User"),
               accountEmail: Text("User@gmail.com"),
@@ -253,7 +253,7 @@ class _TasksScreenState extends State<TasksScreen> {
         tooltip: 'Add New Task',
         child: const Icon(Icons.add),
       ),
-      backgroundColor: const Color(0xFFCECAB7),
+      backgroundColor: const Color.fromARGB(255, 172, 168, 147),
     );
   }
 }

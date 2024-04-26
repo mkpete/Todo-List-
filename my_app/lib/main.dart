@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // Configure app theme
         colorScheme: ColorScheme.fromSwatch()
-            .copyWith(primary: const Color(0xFF883007)), // Set primary color
+            .copyWith(primary: const Color.fromARGB(255, 7, 132, 136)), // Set primary color
         useMaterial3: true, // Enable Material 3 design elements
       ),
        // Set home screen to be  TasksScreen
