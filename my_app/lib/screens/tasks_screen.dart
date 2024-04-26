@@ -151,7 +151,7 @@ class _TasksScreenState extends State<TasksScreen> {
             ),
           ],
         ),
-        backgroundColor: const Color.fromARGB(255, 136, 91, 7),
+        backgroundColor: Color.fromARGB(255, 72, 156, 196),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       drawer: Drawer(
