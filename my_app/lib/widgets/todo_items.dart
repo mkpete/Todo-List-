@@ -59,7 +59,7 @@ class ToDoItem extends StatelessWidget {
           height: 35,
           width: 35,
           decoration: BoxDecoration(
-            color: Color.fromARGB(169, 11, 143, 219), // Set background color of the delete button container to red
+            color: const Color.fromARGB(169, 11, 143, 219), // Set background color of the delete button container to red
             borderRadius: BorderRadius.circular(
                 5), // Set rounded corners for the delete button container
           ),
