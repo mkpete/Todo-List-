@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Hide debug banner
-      title: 'Flutter Demo', // Set app title
+      title: 'Todo List', // Set app title
       theme: ThemeData(
         // Configure app theme
         colorScheme: ColorScheme.fromSwatch()

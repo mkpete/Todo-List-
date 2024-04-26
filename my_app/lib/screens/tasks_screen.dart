@@ -162,8 +162,8 @@ class _TasksScreenState extends State<TasksScreen> {
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage("assets/profile.jpeg"),
               ),
-              accountName: Text("Student"),
-              accountEmail: Text("student@gmail.com"),
+              accountName: Text("User"),
+              accountEmail: Text("User@gmail.com"),
             ),
             // Drawer menu items for different task categories
             ListTile(
@@ -206,7 +206,14 @@ class _TasksScreenState extends State<TasksScreen> {
               ),
               child: TextField(
                 onChanged: (keyword) {
-                  // Implement search functionality if needed
+                  setState(() {
+                    // Filter tasks based on the keyword
+                    _foundToDo = todosList
+                        .where((todo) => todo.todoText
+                            .toLowerCase()
+                            .contains(keyword.toLowerCase()))
+                        .toList();
+                  });
                 },
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(0),
