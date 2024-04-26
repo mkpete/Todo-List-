@@ -23,10 +23,10 @@ class MyApp extends StatelessWidget {
        // Set home screen to be  TasksScreen
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Todo List'),
+          title: const Text('Todo List'),
           leading: SvgPicture.asset('assets/app_icon.svg'), // Set the app icon here
         ),
-        body: TasksScreen(),
+        body: const TasksScreen(),
       ),
     );
   }
