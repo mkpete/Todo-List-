@@ -1,4 +1,4 @@
-# my_app
+# Todo List - Flutter App
 
 A new Flutter project.
 
