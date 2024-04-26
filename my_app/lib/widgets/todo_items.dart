@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/model/todo.dart';
+import 'package:my_app/model/todo.dart';
 // Widget representing a single ToDo item in the list
 class ToDoItem extends StatelessWidget {
   final ToDo todo; // The ToDo object associated with this item
