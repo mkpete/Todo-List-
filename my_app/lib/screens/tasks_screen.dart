@@ -162,8 +162,8 @@ class _TasksScreenState extends State<TasksScreen> {
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage("assets/profile_icon.png"),
               ),
-              accountName: Text("User"),
-              accountEmail: Text("User@gmail.com"),
+              accountName: Text("Pete"),
+              accountEmail: Text("Pete@gmail.com"),
             ),
             // Drawer menu items for different task categories
             ListTile(
